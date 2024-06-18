@@ -1,0 +1,16 @@
+h1 {
+  background: rgb(18, 179, 235);
+  background: linear-gradient(
+    90deg,
+    rgba(18, 179, 235, 1) 0%,
+    rgba(84, 96, 249, 1) 38%
+  );
+  background-clip: text;
+  color: transparent;
+}
+
+.projectList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}

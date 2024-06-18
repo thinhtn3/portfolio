@@ -1,0 +1,26 @@
+ul {
+  box-sizing: border-box;
+  width: 100vw;
+  display: flex;
+  color: rgb(255, 255, 255);
+  list-style: none;
+  font-size: 1.2em;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #1d1d1d;
+  margin: 0em;
+  padding: 1.5em 0em;
+  height: 1.75em;
+  align-items: center;
+}
+
+li:hover {
+  background: rgb(18, 179, 235);
+  background: linear-gradient(
+    90deg,
+    rgba(18, 179, 235, 1) 80%,
+  );
+  background-clip: text;
+  color: transparent;
+  cursor: pointer;
+}
