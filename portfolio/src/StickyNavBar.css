@@ -2,7 +2,6 @@ ul {
   box-sizing: border-box;
   width: 100vw;
   display: flex;
-  color: rgb(255, 255, 255);
   list-style: none;
   font-size: 1.2em;
   display: flex;
@@ -14,12 +13,13 @@ ul {
   align-items: center;
 }
 
-li:hover {
+a{
+  text-decoration: none;
+  color: rgb(200, 200, 200);
+}
+a:hover {
   background: rgb(18, 179, 235);
-  background: linear-gradient(
-    90deg,
-    rgba(18, 179, 235, 1) 80%,
-  );
+  background: linear-gradient(90deg, rgba(18, 179, 235, 1) 80%);
   background-clip: text;
   color: transparent;
   cursor: pointer;

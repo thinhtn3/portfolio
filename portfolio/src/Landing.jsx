@@ -17,7 +17,7 @@ export default function Landing() {
       <div style={{ display: "flex", alignItems: "center", height: "90vh" }}>
         <div style={{ margin: "0em 6em" }}>
           <h1 className="banner" style={{ fontSize: "4em" }}>
-            Hello! I'm Thinh.
+            Hi! I'm Thinh, but call me Tony
           </h1>
           <h2 style={{ color: "#575759", border: "0px", fontSize: "1.5em" }}>
             Aspiring Software Engineer with interest in Web Development, Machine

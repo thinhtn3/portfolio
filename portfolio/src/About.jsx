@@ -1,8 +1,8 @@
 export default function About() {
   return (
-    <>
+    <section id="about">
       <h1 style={{ fontSize: "2.5em", margin: "1.5em 2.5em 1em 2.5em" }}>About</h1>
-      <div style={{ padding: "0em 10em", lineHeight: "1.7" }}>
+      <div style={{ padding: "0em 10em", lineHeight: "1.7", marginBottom:'5em' }}>
         <h2 style={{ color: "#575759", fontSize: "1.75em", marginTop:"0em" }}>Background</h2>
         <p style={{ color: "rgb(161, 159, 159)", fontSize: "1.25em" }}>
           I have recently graduated from the University of California, Irvine
@@ -26,6 +26,6 @@ export default function About() {
           board, lift weights, and play basketball!
         </p>
       </div>
-    </>
+    </section>
   );
 }
